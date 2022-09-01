@@ -9,6 +9,8 @@ import Iter "mo:base/Iter";
 
 actor OpenD {
 
+    
+
     private type Listing = {
       itemOwner: Principal;
       itemPrice: Nat;
