@@ -1,6 +1,6 @@
 # openD NFT marketplace APP build on ICP blockChain 
 
-this project is a NFT e-commerce site that's inspired by Opensea where people can mint, list and sell non-fungible tokens on the internet computer. I followed an online web development bootcamp taught by Anglea Yu to build this project. This app be built with React on the frontend, Motoko and Internet computer supporting the backend. 
+this project is a NFT e-commerce site that's inspired by Opensea where people can mint, list and sell non-fungible tokens on the internet computer. I followed an online web development bootcamp taught to build this project. This app be built with React on the frontend, Motoko and Internet computer supporting the backend. 
 
 The App consists of a lot of features:
 1. People can mint NFTS on the Frontend and each NFT can stored in the blockChain.
