@@ -8,6 +8,9 @@ The App consists of a lot of features:
 3. People can list NFTS for Sale.
 4. The App has a "discover" Page and people can buy other's NFT using the soul coins which I created in the last project. 
 
+demo of this project: 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sACVm43b5F8 /0.jpg)](https://www.youtube.com/watch?v=sACVm43b5F8 )
+
 The screenshots of the e-commerce site are shown below. 
 
 ![Alt text](/src/opend_assets/assets/mint1.jpg)
