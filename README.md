@@ -1,4 +1,27 @@
-Copyright 2022 London App Brewery LTD (www.appbrewery.com)
+# openD NFT marketplace APP build on ICP blockChain 
+
+this project is a NFT e-commerce site that's inspired by Opensea where people can mint, list and sell non-fungible tokens on the internet computer. I followed an online web development bootcamp taught by Anglea Yu to build this project. This app be built with React on the frontend, Motoko and Internet computer supporting the backend. 
+
+The App consists of a lot of features:
+1. People can mint NFTS on the Frontend and each NFT can stored in the blockChain.
+2. The app can display owned NFTS using the React Router. 
+3. People can list NFTS for Sale.
+4. The App has a "discover" Page and people can buy other's NFT using the soul coins which I created in the last project. 
+
+The screenshots of the e-commerce site are shown below. 
+
+![Alt text](/src/opend_assets/assets/mint1.jpg)
+![Alt text](/src/opend_assets/assets/mint2.jpg)
+![Alt text](/src/opend_assets/assets/mint3.jpg)
+![Alt text](/src/opend_assets/assets/mint4.jpg)
+![Alt text](/src/opend_assets/assets/mint5.jpg)
+![Alt text](/src/opend_assets/assets/mint6.jpg)
+![Alt text](/src/opend_assets/assets/mint7.jpg)
+![Alt text](/src/opend_assets/assets/mint8.jpg)
+![Alt text](/src/opend_assets/assets/mint9.jpg)
+
+
+
 
 The code in this tutorial project is licended under the Apache License, Version 2.0 (the "License");
 you may not use this project except in compliance with the License.
@@ -107,7 +130,7 @@ dfx canister call opend mint '(vec {137; 80; 78; 71; 13; 10; 26; 10; 0; 0; 0; 13
 2. List the item into mapOfListings:
 
 ```
-dfx canister call opend listItem '(principal "qaa6y-5yaaa-aaaaa-aaafa-cai", 2)'
+dfx canister call opend listItem '(principal "sbzkb-zqaaa-aaaaa-aaaiq-cai", 2)'
 ```
 
 3. Get OpenD canister ID:
@@ -119,7 +142,7 @@ dfx canister id opend
 4. Transfer NFT to OpenD:
 
 ```
-dfx canister call qaa6y-5yaaa-aaaaa-aaafa-cai transferOwnership '(principal "ryjl3-tyaaa-aaaaa-aaaba-cai", true)'
+dfx canister call sbzkb-zqaaa-aaaaa-aaaiq-cai transferOwnership '(principal "ryjl3-tyaaa-aaaaa-aaaba-cai", true)'
 ```
 
 # Conneting to the Token Canister
